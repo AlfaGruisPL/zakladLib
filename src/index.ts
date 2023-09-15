@@ -1,3 +1,3 @@
-import {TestowyInterfajs} from "./interface/testowyInterfajs";
+import {PodsumowanieZakladuInformacjeDto} from "./interface/podsumowanieZakladuInformacje.dto";
 
-export { TestowyInterfajs };
+export { PodsumowanieZakladuInformacjeDto };

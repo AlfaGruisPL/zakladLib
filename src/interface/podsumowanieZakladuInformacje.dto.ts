@@ -7,7 +7,7 @@ export interface PodsumowanieZakladuInformacjeDto {
         odbyte: any;
         suma: any;
     };
-
+    test: number;
     dochodDzis: number;
     dochodWczoraj: number;
     wizytyWTygodniuPoprzednim: number;

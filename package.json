@@ -1,9 +1,10 @@
 {
   "name": "zakladLib",
   "version": "1.0.0",
-  "description": "hej",
+  "description": "hej2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "/dist"
   ],

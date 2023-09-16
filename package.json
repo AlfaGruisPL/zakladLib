@@ -1,14 +1,12 @@
 {
-  "name": "zakladlib",
+  "name": "zakladLib",
   "version": "1.0.0",
-  "description": "",
+  "description": "hej",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "/dist"
+  ],
   "devDependencies": {
     "typescript": "^5.2.2"
   }

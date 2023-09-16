@@ -1,4 +1,4 @@
-export interface PodsumowanieZakladuInformacjeDto {
+export declare class PodsumowanieZakladuInformacjeDto {
     wizytyDzis: {
         odbyte: any;
         suma: any;
@@ -7,7 +7,6 @@ export interface PodsumowanieZakladuInformacjeDto {
         odbyte: any;
         suma: any;
     };
-    test: number;
     dochodDzis: number;
     dochodWczoraj: number;
     wizytyWTygodniuPoprzednim: number;
@@ -15,4 +14,5 @@ export interface PodsumowanieZakladuInformacjeDto {
         odbyte: any;
         suma: any;
     };
+    constructor();
 }

@@ -1,4 +1,4 @@
-export interface PodsumowanieZakladuInformacjeDto {
+export class PodsumowanieZakladuInformacjeDto {
     wizytyDzis: {
         odbyte: any;
         suma: any;
@@ -7,12 +7,17 @@ export interface PodsumowanieZakladuInformacjeDto {
         odbyte: any;
         suma: any;
     };
-    test: number;
-    dochodDzis: number;
-    dochodWczoraj: number;
-    wizytyWTygodniuPoprzednim: number;
+    dochodDzis: number = 0;
+    dochodWczoraj: number = 0;
+    wizytyWTygodniuPoprzednim: number = 0;
     wizytyWczoraj: {
         odbyte: any;
         suma: any;
     };
+
+    constructor() {
+        this.wizytyDzis = {odbyte: 0, suma: 0}
+        this.wizytyWTygodniu = {odbyte: 0, suma: 0}
+        this.wizytyWczoraj = {odbyte: 0, suma: 0}
+    }
 }

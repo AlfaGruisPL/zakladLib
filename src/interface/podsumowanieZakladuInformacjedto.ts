@@ -1,4 +1,4 @@
-export class PodsumowanieZakladuInformacjeDto {
+export class PodsumowanieZakladuInformacjedto {
     wizytyDzis: {
         odbyte: any;
         suma: any;

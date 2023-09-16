@@ -1,3 +1,3 @@
-import {PodsumowanieZakladuInformacjeDto} from "./interface/podsumowanieZakladuInformacje.dto";
+import {PodsumowanieZakladuInformacjedto} from "./interface/podsumowanieZakladuInformacjedto";
 
-export { PodsumowanieZakladuInformacjeDto };
+export {PodsumowanieZakladuInformacjedto};

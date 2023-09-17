@@ -1,4 +1,5 @@
 import {PodsumowanieZakladuInformacjedto} from "./class/podsumowanieZakladuInformacjedto";
-import {PodsumowanieZakladuTabelaDto} from "./class/podsumowanieZakladuTabelaDto";
+import {PodsumowanieZakladuTabelaDto, PodsumowanieZakladuTabelaPracownikDto} from "./class/podsumowanieZakladuTabelaDto";
 
-export {PodsumowanieZakladuInformacjedto, PodsumowanieZakladuTabelaDto};
+export {PodsumowanieZakladuInformacjedto, PodsumowanieZakladuTabelaDto,};
+PodsumowanieZakladuTabelaPracownikDto

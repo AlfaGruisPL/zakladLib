@@ -5,3 +5,4 @@ const podsumowanieZakladuInformacjedto_1 = require("./class/podsumowanieZakladuI
 Object.defineProperty(exports, "PodsumowanieZakladuInformacjedto", { enumerable: true, get: function () { return podsumowanieZakladuInformacjedto_1.PodsumowanieZakladuInformacjedto; } });
 const podsumowanieZakladuTabelaDto_1 = require("./class/podsumowanieZakladuTabelaDto");
 Object.defineProperty(exports, "PodsumowanieZakladuTabelaDto", { enumerable: true, get: function () { return podsumowanieZakladuTabelaDto_1.PodsumowanieZakladuTabelaDto; } });
+podsumowanieZakladuTabelaDto_1.PodsumowanieZakladuTabelaPracownikDto;

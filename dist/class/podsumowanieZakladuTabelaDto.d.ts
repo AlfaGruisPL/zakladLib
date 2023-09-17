@@ -1,14 +1,14 @@
 export declare class PodsumowanieZakladuTabelaDto {
-    dane: [
-        {
-            pracownik: {
-                id: number;
-                imie: string;
-                nazwisko: string;
-            };
-            wizytyDzis: number;
-            wizytyWczoraj: number;
-        }
-    ];
+    dane: PodsumowanieZakladuTabelaPracownikDto[];
+    constructor();
+}
+export declare class PodsumowanieZakladuTabelaPracownikDto {
+    pracownik: {
+        id: number;
+        imie: string;
+        nazwisko: string;
+    };
+    wizytyDzis: number;
+    wizytyWczoraj: number;
     constructor();
 }

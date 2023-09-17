@@ -1,3 +1,3 @@
 import { PodsumowanieZakladuInformacjedto } from "./class/podsumowanieZakladuInformacjedto";
-import { PodsumowanieZakladuTabelaDto } from "./class/podsumowanieZakladuTabelaDto";
-export { PodsumowanieZakladuInformacjedto, PodsumowanieZakladuTabelaDto, };
+import { PodsumowanieZakladuTabelaDto, PodsumowanieZakladuTabelaPracownikDto } from "./class/podsumowanieZakladuTabelaDto";
+export { PodsumowanieZakladuInformacjedto, PodsumowanieZakladuTabelaDto, PodsumowanieZakladuTabelaPracownikDto };

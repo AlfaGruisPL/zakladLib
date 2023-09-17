@@ -1,3 +1,3 @@
-import {PodsumowanieZakladuInformacjedto} from "./interface/podsumowanieZakladuInformacjedto";
+import {PodsumowanieZakladuInformacjedto} from "./class/podsumowanieZakladuInformacjedto";
 
 export {PodsumowanieZakladuInformacjedto};

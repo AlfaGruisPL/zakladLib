@@ -1,2 +1,3 @@
 import { PodsumowanieZakladuInformacjedto } from "./class/podsumowanieZakladuInformacjedto";
-export { PodsumowanieZakladuInformacjedto };
+import { PodsumowanieZakladuTabelaDto } from "./class/podsumowanieZakladuTabelaDto";
+export { PodsumowanieZakladuInformacjedto, PodsumowanieZakladuTabelaDto };

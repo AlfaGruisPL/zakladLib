@@ -8,6 +8,8 @@ export class PodsumowanieZakladuInformacjedto {
         suma: any;
     };
     dochodDzis: number = 0;
+    dochodWTygodniu: number = 0;
+    dochodWTygodniuPoprzednim: number = 0;
     dochodWczoraj: number = 0;
     wizytyWTygodniuPoprzednim: number = 0;
     wizytyWczoraj: {

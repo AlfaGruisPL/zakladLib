@@ -1,2 +1,2 @@
-import { PodsumowanieZakladuInformacjeDto } from "./interface/podsumowanieZakladuInformacje.dto";
-export { PodsumowanieZakladuInformacjeDto };
+import { PodsumowanieZakladuInformacjedto } from "./interface/podsumowanieZakladuInformacjedto";
+export { PodsumowanieZakladuInformacjedto };

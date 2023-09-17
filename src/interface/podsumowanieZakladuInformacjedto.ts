@@ -12,14 +12,10 @@ export class PodsumowanieZakladuInformacjedto {
     dochodWTygodniuPoprzednim: number = 0;
     dochodWczoraj: number = 0;
     wizytyWTygodniuPoprzednim: number = 0;
-    wizytyWczoraj: {
-        odbyte: any;
-        suma: any;
-    };
+    wizytyWczoraj: number = 0
 
     constructor() {
         this.wizytyDzis = {odbyte: 0, suma: 0}
         this.wizytyWTygodniu = {odbyte: 0, suma: 0}
-        this.wizytyWczoraj = {odbyte: 0, suma: 0}
     }
 }

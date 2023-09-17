@@ -8,9 +8,9 @@ class PodsumowanieZakladuInformacjedto {
         this.dochodWTygodniuPoprzednim = 0;
         this.dochodWczoraj = 0;
         this.wizytyWTygodniuPoprzednim = 0;
+        this.wizytyWczoraj = 0;
         this.wizytyDzis = { odbyte: 0, suma: 0 };
         this.wizytyWTygodniu = { odbyte: 0, suma: 0 };
-        this.wizytyWczoraj = { odbyte: 0, suma: 0 };
     }
 }
 exports.PodsumowanieZakladuInformacjedto = PodsumowanieZakladuInformacjedto;

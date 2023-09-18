@@ -9,7 +9,7 @@ export declare class PodsumowanieZakladuTabelaPracownikDto {
         nazwisko: string;
     };
     wizytyDzis: {
-        odbute: number;
+        odbyte: number;
         suma: number;
         kwota: number;
     };

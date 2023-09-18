@@ -31,5 +31,6 @@ export class PodsumowanieZakladuTabelaPracownikDto {
         }
         this.wizytyWczoraj = {suma: 0, kwota: 0}
         this.wizytyDzis = {odbyte: 0, suma: 0, kwota: 0}
+
     }
 }

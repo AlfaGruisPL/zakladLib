@@ -14,7 +14,7 @@ class PodsumowanieZakladuTabelaPracownikDto {
             nazwisko: ''
         };
         this.wizytyWczoraj = { suma: 0, kwota: 0 };
-        this.wizytyDzis = { odbute: 0, suma: 0, kwota: 0 };
+        this.wizytyDzis = { odbyte: 0, suma: 0, kwota: 0 };
     }
 }
 exports.PodsumowanieZakladuTabelaPracownikDto = PodsumowanieZakladuTabelaPracownikDto;

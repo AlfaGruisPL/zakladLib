@@ -17,5 +17,13 @@ export declare class PodsumowanieZakladuTabelaPracownikDto {
         suma: number;
         kwota: number;
     };
+    wizytyZ7Dni: {
+        suma: number;
+        kwota: number;
+    };
+    wizytyZ30Dni: {
+        suma: number;
+        kwota: number;
+    };
     constructor();
 }

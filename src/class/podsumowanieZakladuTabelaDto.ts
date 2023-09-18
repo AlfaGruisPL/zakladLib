@@ -14,7 +14,7 @@ export class PodsumowanieZakladuTabelaPracownikDto {
         nazwisko: string
     }
     wizytyDzis: {
-        odbute: number;
+        odbyte: number;
         suma: number;
         kwota: number
     };
@@ -30,6 +30,6 @@ export class PodsumowanieZakladuTabelaPracownikDto {
             nazwisko: ''
         }
         this.wizytyWczoraj = {suma: 0, kwota: 0}
-        this.wizytyDzis = {odbute: 0, suma: 0, kwota: 0}
+        this.wizytyDzis = {odbyte: 0, suma: 0, kwota: 0}
     }
 }

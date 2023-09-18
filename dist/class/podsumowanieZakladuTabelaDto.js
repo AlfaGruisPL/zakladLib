@@ -8,13 +8,13 @@ class PodsumowanieZakladuTabelaDto {
 exports.PodsumowanieZakladuTabelaDto = PodsumowanieZakladuTabelaDto;
 class PodsumowanieZakladuTabelaPracownikDto {
     constructor() {
-        this.wizytyDzis = 0;
-        this.wizytyWczoraj = 0;
         this.pracownik = {
             id: 0,
             imie: '',
             nazwisko: ''
         };
+        this.wizytyWczoraj = { suma: 0, kwota: 0 };
+        this.wizytyDzis = { odbute: 0, suma: 0, kwota: 0 };
     }
 }
 exports.PodsumowanieZakladuTabelaPracownikDto = PodsumowanieZakladuTabelaPracownikDto;

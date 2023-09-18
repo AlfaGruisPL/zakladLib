@@ -8,7 +8,14 @@ export declare class PodsumowanieZakladuTabelaPracownikDto {
         imie: string;
         nazwisko: string;
     };
-    wizytyDzis: number;
-    wizytyWczoraj: number;
+    wizytyDzis: {
+        odbute: number;
+        suma: number;
+        kwota: number;
+    };
+    wizytyWczoraj: {
+        suma: number;
+        kwota: number;
+    };
     constructor();
 }

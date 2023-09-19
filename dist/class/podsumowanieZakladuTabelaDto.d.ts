@@ -17,11 +17,19 @@ export declare class PodsumowanieZakladuTabelaPracownikDto {
         suma: number;
         kwota: number;
     };
-    wizytyZ7Dni: {
+    wizytyOStatniTydzien: {
         suma: number;
         kwota: number;
     };
-    wizytyZ30Dni: {
+    wizytyPoprzedniTydzien: {
+        suma: number;
+        kwota: number;
+    };
+    wizytyOstatniMiesiac: {
+        suma: number;
+        kwota: number;
+    };
+    wizytyPoprzedniMiesiac: {
         suma: number;
         kwota: number;
     };

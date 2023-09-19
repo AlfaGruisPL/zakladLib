@@ -14,8 +14,10 @@ class PodsumowanieZakladuTabelaPracownikDto {
             nazwisko: ''
         };
         this.wizytyWczoraj = { suma: 0, kwota: 0 };
-        this.wizytyZ7Dni = { suma: 0, kwota: 0 };
-        this.wizytyZ30Dni = { suma: 0, kwota: 0 };
+        this.wizytyOStatniTydzien = { suma: 0, kwota: 0 };
+        this.wizytyPoprzedniTydzien = { suma: 0, kwota: 0 };
+        this.wizytyOstatniMiesiac = { suma: 0, kwota: 0 };
+        this.wizytyPoprzedniMiesiac = { suma: 0, kwota: 0 };
         this.wizytyDzis = { odbyte: 0, suma: 0, kwota: 0 };
     }
 }

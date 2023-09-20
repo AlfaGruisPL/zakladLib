@@ -15,6 +15,7 @@ export class PodsumowanieZakladuInformacjedto {
     wizytyWczoraj: number = 0
 
     sumaWizyt: number = 0
+    sumaWizytKwota: number = 0
 
     constructor() {
         this.wizytyDzis = {odbyte: 0, suma: 0}

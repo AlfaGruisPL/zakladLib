@@ -14,5 +14,6 @@ export declare class PodsumowanieZakladuInformacjedto {
     wizytyWTygodniuPoprzednim: number;
     wizytyWczoraj: number;
     sumaWizyt: number;
+    sumaWizytKwota: number;
     constructor();
 }

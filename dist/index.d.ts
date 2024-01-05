@@ -1,6 +1,6 @@
 import { PodsumowanieZakladuInformacjedto } from "./class/podsumowanieZakladuInformacjedto";
 import { PodsumowanieZakladuTabelaDto, PodsumowanieZakladuTabelaPracownikDto } from "./class/podsumowanieZakladuTabelaDto";
-import { Template1 } from "./interface/templates/template1";
-import { Template2 } from "./interface/templates/template2";
+import { FirstTemplate } from "./class/templates/firstTemplate";
+import { SecondTemplate } from "./class/templates/secondTemplate";
 export { PodsumowanieZakladuInformacjedto, PodsumowanieZakladuTabelaDto, PodsumowanieZakladuTabelaPracownikDto };
-export { Template2, Template1 };
+export { SecondTemplate, FirstTemplate };

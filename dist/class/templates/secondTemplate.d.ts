@@ -3,4 +3,5 @@ export declare class SecondTemplate {
     logo: string | number;
     banner: string | number;
     title: string;
+    descriptionOfEmpolyeeSubPage: string;
 }

@@ -7,6 +7,7 @@ class SecondTemplate {
         this.logo = '';
         this.banner = '';
         this.title = '';
+        this.descriptionOfEmpolyeeSubPage = '';
     }
 }
 exports.SecondTemplate = SecondTemplate;

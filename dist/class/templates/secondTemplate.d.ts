@@ -3,19 +3,20 @@ export declare class SecondTemplate {
     banner: string | number;
     aboutUs: {
         information: {
-            title: "";
-            shortDescription: '';
-            mainDescription: "";
+            title: string;
+            shortDescription: string;
+            mainDescription: string;
         };
         images: {
-            mainImage: "";
+            mainImage: string;
             otherImages: {
-                image1: "";
-                image2: "";
-                image3: "";
+                image1: number;
+                image2: number;
+                image3: number;
             };
         };
     };
     title: string;
     descriptionOfEmpolyeeSubPage: string;
+    constructor();
 }
